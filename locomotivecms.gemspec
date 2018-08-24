@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'simple_token_authentication',     '~> 1.15.1'
 
   s.add_dependency 'pundit',                          '~> 1.1.0'
+  s.add_dependency 'puma',                            '~> 3.11.3'
 
   s.add_dependency 'mongoid',                         '~> 6.4.0'
   s.add_dependency 'mongoid-tree',                    '~> 2.1.0'
