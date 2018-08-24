@@ -1,6 +1,6 @@
 Locomotive.configure do |config|
 
-  config.host = 'locomotive.local'
+  config.host = ENV["HOST"]
 
   # list of forbidden handles for a site because there are in conflicts with internal resources.
   # config.reserved_site_handles = %w(sites my_account password sign_in sign_out)
